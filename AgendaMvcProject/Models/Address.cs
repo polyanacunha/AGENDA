@@ -3,42 +3,33 @@ using System.ComponentModel.DataAnnotations;
 
 namespace backend.Models;
 [Table("Address")]
-public class Andress
+public class Address
 {   
     [Key]
     [Column("address_id")]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-
-
-    [ForeignKey("contatc_id")]
-    public int contact_id { get; set; }
-
+    public int AddressId {get; set;}
+    [Column("contact_id")]
+    [ForeignKey("contact_id")]
+    public int ContactId { get; set; }
     [Required]
     [Column("country")]
-    public string country { get; set; }
-
+    public string Country { get; set; }
     [Required]
      [Column("neighbourhood")]
-    public string neighbourhood { get; set; }
-
+    public string Neighbourhood { get; set; }
     [Required]
     [Column("city")]
-    public string city { get; set; }
-
+    public string City { get; set; }
     [Required]
     [Column("state")]
-    public string state { get; set; }
-
+    public string State { get; set; }
     [Required]
     [Column("zipcode")]
-    public int zipcode { get; set; }
-    
+    public int ZipCode { get; set; }
     [Required]
     [Column ("number")]
-    public int number { get; set;}
-
-
+    public int Number { get; set;}
     [Column ("description")]
-    public string description {get; set;}
-
+    public string Description {get; set;}
 }
