@@ -1,5 +1,6 @@
 using Application.interfaces;
 using Application.Models;
+using backend.Models;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -32,7 +33,7 @@ namespace Application.Services
             return contact;
         }
 
-        public async Task<Category> UpdateCategoryAsync(ContactService contact)
+        public async Task<Contact> UpdateContactAsync(Contact contact)
         {
             _context.Entry(contact).State = EntityState.Modified;
 
@@ -69,5 +70,6 @@ namespace Application.Services
         {
             return _context.Contacts.Any(e => e.Id == id);
         }
+
     }
 }

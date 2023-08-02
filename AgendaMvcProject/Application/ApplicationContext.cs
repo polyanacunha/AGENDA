@@ -1,3 +1,4 @@
+using backend.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Application.Models

@@ -1,8 +1,4 @@
-using Application.Models;
-using Microsoft.EntityFrameworkCore;
-//<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5">
-
-//<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+using backend.Models;
 
 namespace Application.interfaces
 {
