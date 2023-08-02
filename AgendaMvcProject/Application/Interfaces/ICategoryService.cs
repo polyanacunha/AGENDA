@@ -1,13 +1,12 @@
-using Application.Models;
+using AgendaMvcProject.Application.DTOs;
 
-namespace Application.interfaces
+namespace AgendaMvcProject.Application.Interfaces;
+
+public interface ICategoryService
 {
-    public interface ICategoryService
-    {
-        Task<IEnumerable<Category>> GetCategoriesAsync();
-        Task<Category> GetCategoryByIdAsync(int id);
-        Task<Category> AddCategoryAsync(Category category);
-        Task<Category> UpdateCategoryAsync(Category category);
-        Task DeleteCategoryAsync(int id);
-    }
+    Task<IEnumerable<CategoryDTO>> GetCategories();
+    Task<CategoryDTO> GetById(int? id);
+    Task Add(CategoryDTO categoryDto);
+    Task Update(CategoryDTO categoryDto);
+    Task Remove(int? id);
 }

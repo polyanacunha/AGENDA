@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace Application.Models;
+namespace AgendaMvcProject.Domain.Models;
 [Table("category")]
 public class Category
 {   

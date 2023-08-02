@@ -1,7 +1,7 @@
-using backend.Models;
+using AgendaMvcProject.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Application.Models
+namespace AgendaMvcProject.Data.Context
 {
     public class ApplicationContext : DbContext
     {

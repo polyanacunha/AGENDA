@@ -1,10 +1,9 @@
-using Application.interfaces;
-using Application.Models;
-using backend.Models;
+using AgendaMvcProject.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using AgendaMvcProject.Data.Context;
+using AgendaMvcProject.Application.interfaces;
 
-
-namespace Application.Services
+namespace AgendaMvcProject.Application.Services
 {
     public class ContactService : IContactService
     {

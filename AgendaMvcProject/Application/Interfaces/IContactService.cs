@@ -1,7 +1,6 @@
-using backend.Models;
+using AgendaMvcProject.Domain.Models; 
+namespace AgendaMvcProject.Application.interfaces;
 
-namespace Application.interfaces
-{
     public interface IContactService
     {
         Task<IEnumerable<Contact>> GetContactsAsync();
@@ -10,4 +9,3 @@ namespace Application.interfaces
         Task<Contact> UpdateContactAsync(Contact contact);
         Task DeleteContactAsync(int id);
     }
-}

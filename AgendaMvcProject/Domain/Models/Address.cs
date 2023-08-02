@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace backend.Models;
+namespace AgendaMvcProject.Domain.Models;
 [Table("Address")]
 public class Address
 {   

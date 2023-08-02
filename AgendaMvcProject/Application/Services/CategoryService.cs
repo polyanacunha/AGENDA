@@ -1,73 +1,49 @@
-using Application.interfaces;
-using Application.Models;
-using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using AgendaMvcProject.Domain.Models;
+using AgendaMvcProject.Application.Interfaces;
+using AgendaMvcProject.Domain.Interfaces;
+using AgendaMvcProject.Application.DTOs;
 
+namespace AgendaMvcProject.Application.Services;
 
-namespace Application.Services
+public class CategoryService : ICategoryService
 {
-    public class CategoryService : ICategoryService
+    private ICategoryRepository _categoryRepository;
+    private readonly IMapper _mapper;
+    public CategoryService(ICategoryRepository categoryRepository, IMapper mapper)
     {
-        private readonly ApplicationContext _context;
+        _categoryRepository = categoryRepository;
+        _mapper = mapper;
+    }
 
-        public CategoryService(ApplicationContext context)
-        {
-            _context = context;
-        }
+    public async Task<IEnumerable<CategoryDTO>> GetCategories()
+    {
+        var categoriesEntity = await _categoryRepository.GetCategories();
+        return _mapper.Map<IEnumerable<CategoryDTO>>(categoriesEntity);
+    }
 
-        public async Task<IEnumerable<Category>> GetCategoriesAsync()
-        {
-            return await _context.Categories.ToListAsync();
-        }
+    public async Task<CategoryDTO> GetById(int? id)
+    {
+        var categoryEntity = await _categoryRepository.GetById(id);
+        return _mapper.Map<CategoryDTO>(categoryEntity);
+    }
 
-        public async Task<Category> GetCategoryByIdAsync(int id)
-        {
-            return await _context.Categories.FindAsync(id);
-        }
+    public async Task Add(CategoryDTO categoryDto)
+    {
+        var categoryEntity = _mapper.Map<Category>(categoryDto);
+        await _categoryRepository.Create(categoryEntity);
+        categoryDto.Id = categoryEntity.Id;
+    }
 
-        public async Task<Category> AddCategoryAsync(Category category)
-        {
-            await _context.Categories.AddAsync(category);
-            await _context.SaveChangesAsync();
+    public async Task Update(CategoryDTO categoryDto)
+    {
+        var categoryEntity = _mapper.Map<Category>(categoryDto);
+        await _categoryRepository.Update(categoryEntity);
+    }
 
-            return category;
-        }
-
-        public async Task<Category> UpdateCategoryAsync(Category category)
-        {
-            _context.Entry(category).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!CategoryExists(category.Id))
-                {
-                    throw new ArgumentException($"Category with id {category.Id} not found.");
-                }
-
-                throw;
-            }
-
-            return category;
-        }
-
-        public async Task DeleteCategoryAsync(int id)
-        {
-            var category = await _context.Categories.FindAsync(id);
-            if (category == null)
-            {
-                throw new ArgumentException($"Category with id {id} not found.");
-            }
-
-            _context.Categories.Remove(category);
-            await _context.SaveChangesAsync();
-        }
-
-        private bool CategoryExists(int id)
-        {
-            return _context.Categories.Any(e => e.Id == id);
-        }
+    public async Task Remove(int? id)
+    {
+        var categoryEntity = _categoryRepository.GetById(id).Result;
+        await _categoryRepository.Remove(categoryEntity);
     }
 }
