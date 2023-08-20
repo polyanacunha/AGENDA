@@ -1,7 +1,7 @@
-using Application.interfaces;
 using AgendaMvcProject.Domain.Models;
-using AgendaMvcProject.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using AgendaMvcProject.Data.Context;
+using AgendaMvcProject.Application.Interfaces;
 
 namespace Application.Services
 {
@@ -14,17 +14,17 @@ namespace Application.Services
             _context = context;
         }
 
-        public async Task<IEnumerable<Address>> GetAddressesAsync()
+        public async Task<IEnumerable<Address>> GetAddresses()
         {
             return await _context.Addresses.ToListAsync();
         }
 
-        public async Task<Address> GetAddressByIdAsync(int id)
+        public async Task<Address> GetById(int id)
         {
             return await _context.Addresses.FindAsync(id);
         }
 
-        public async Task<Address> AddAddressAsync(Address address)
+        public async Task<Address> Add(Address address)
         {
             await _context.Addresses.AddAsync(address);
             await _context.SaveChangesAsync();
@@ -32,7 +32,7 @@ namespace Application.Services
             return address;
         }
 
-        public async Task<Address> UpdateAddressAsync(Address address)
+        public async Task<Address> Update(Address address)
         {
             _context.Entry(address).State = EntityState.Modified;
 
@@ -53,7 +53,7 @@ namespace Application.Services
             return address;
         }
 
-        public async Task DeleteAddressAsync(int id)
+        public async Task Delete(int id)
         {
             var address = await _context.Addresses.FindAsync(id);
             if (address == null)
@@ -70,9 +70,6 @@ namespace Application.Services
             return _context.Addresses.Any(e => e.Id == id);
         }
 
-        public Task<IEnumerable<Address>> GetAddressAsync()
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

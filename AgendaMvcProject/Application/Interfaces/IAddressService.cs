@@ -1,13 +1,13 @@
-using Application.Models;
+using AgendaMvcProject.Domain.Models;
+using AgendaMvcProject.Application.DTOs;
 
-namespace Application.interfaces
-{
+namespace AgendaMvcProject.Application.Interfaces;
+
     public interface IAddressService
     {
-        Task<IEnumerable<Address>> GetAddressAsync();
-        Task<Address> GetAddressByIdAsync(int id);
-        Task<Address> AddAddressAsync(Address address);
-        Task<Address> UpdateAddressAsync(Address address);
-        Task DeleteAddressAsync(int id);
+        Task<IEnumerable<Address>> GetAddresses();
+        Task<Address> GetById(int id);
+        Task<Address> Add(Address address);
+        Task<Address> Update(Address address);
+        Task Delete(int id);
     }
-}

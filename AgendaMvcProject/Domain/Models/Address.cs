@@ -11,7 +11,7 @@ public class Address
     [Key]
     [Column("address_id")]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int AddressId {get; set;}
+    public int Id {get; set;}
     [Column("contact_id")]
     [ForeignKey("contact_id")]
     public int ContactId { get; set; }

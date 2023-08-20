@@ -1,4 +1,6 @@
 using AgendaMvcProject.Domain.Models; 
+using AgendaMvcProject.Application.DTOs;
+
 namespace AgendaMvcProject.Application.Interfaces;
 
     public interface IContactService

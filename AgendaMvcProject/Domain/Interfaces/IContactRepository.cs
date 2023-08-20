@@ -1,7 +1,6 @@
 using AgendaMvcProject.Domain.Models;
 
 namespace AgendaMvcProject.Domain.Interfaces;
-
 public interface IContactRepository
 {
     Task<IEnumerable<Contact>> GetContacts();
@@ -11,3 +10,4 @@ public interface IContactRepository
     Task<Contact> Update(Contact contact);
     Task<Contact> Remove(Contact contact);
 }
+
