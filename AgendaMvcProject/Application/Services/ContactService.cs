@@ -1,7 +1,7 @@
 using AgendaMvcProject.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using AgendaMvcProject.Data.Context;
-using AgendaMvcProject.Application.interfaces;
+using AgendaMvcProject.Application.Interfaces;
 
 namespace AgendaMvcProject.Application.Services
 {

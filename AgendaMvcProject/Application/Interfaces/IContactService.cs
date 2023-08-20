@@ -1,5 +1,5 @@
 using AgendaMvcProject.Domain.Models; 
-namespace AgendaMvcProject.Application.interfaces;
+namespace AgendaMvcProject.Application.Interfaces;
 
     public interface IContactService
     {
@@ -8,4 +8,5 @@ namespace AgendaMvcProject.Application.interfaces;
         Task<Contact> AddContactAsync(Contact contact);
         Task<Contact> UpdateContactAsync(Contact contact);
         Task DeleteContactAsync(int id);
-    }
+
+}
