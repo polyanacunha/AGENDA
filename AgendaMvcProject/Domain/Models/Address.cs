@@ -1,7 +1,11 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
+<<<<<<< HEAD:AgendaMvcProject/Domain/Models/Address.cs
 namespace AgendaMvcProject.Domain.Models;
+=======
+namespace Application.Models;
+>>>>>>> origin/Andress:AgendaMvcProject/Application/Models/Address.cs
 [Table("Address")]
 public class Address
 {   
