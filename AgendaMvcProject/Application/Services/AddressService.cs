@@ -1,5 +1,6 @@
 using Application.interfaces;
-using Application.Models;
+using AgendaMvcProject.Domain.Models;
+using AgendaMvcProject.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace Application.Services

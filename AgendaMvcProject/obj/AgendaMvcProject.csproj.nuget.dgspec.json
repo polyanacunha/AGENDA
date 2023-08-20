@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj": {}
+    "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {}
   },
   "projects": {
-    "/workspaces/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj": {
+    "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj",
+        "projectUniqueName": "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
         "projectName": "AgendaMvcProject",
-        "projectPath": "/workspaces/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/AGENDA/AgendaMvcProject/obj/",
+        "projectPath": "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
+        "packagesPath": "C:\\Users\\gabyy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gabyy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/dotnet/7.0.302/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,19 +45,15 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.DbContext": {
-              "target": "Package",
               "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -79,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.302/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
