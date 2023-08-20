@@ -10,7 +10,7 @@ namespace AgendaMvcProject.Data.Presentation.Controller;
 [Authorize]
 public class ContactsController : ControllerBase
 {
-    private readonly IContactService _categoryService;
+    private readonly IContactService _contactService;
     public ContactsController(IContactService contactService)
     {
         _contactService = contactService;
