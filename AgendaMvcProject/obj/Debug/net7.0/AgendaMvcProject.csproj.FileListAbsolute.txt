@@ -33,3 +33,12 @@
 /home/usuario/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.pdb
 /home/usuario/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.genruntimeconfig.cache
 /home/usuario/AGENDA/AgendaMvcProject/obj/Debug/net7.0/ref/AgendaMvcProject.dll
+/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.AssemblyReference.cache
+/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfoInputs.cache
+/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfo.cs
+/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.CoreCompileInputs.cache
+/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cache
+/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.dll
+/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/refint/AgendaMvcProject.dll
+/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.pdb

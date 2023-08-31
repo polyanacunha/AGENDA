@@ -11,10 +11,8 @@ public class Address
     [Key]
     [Column("address_id")]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int AddressId {get; set;}
-    [Column("contact_id")]
-    [ForeignKey("contact_id")]
-    public int ContactId { get; set; }
+    public int Id {get; set;}
+    
     [Required]
     [Column("country")]
     public string Country { get; set; }

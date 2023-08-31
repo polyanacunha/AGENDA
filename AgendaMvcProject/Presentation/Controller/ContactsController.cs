@@ -1,5 +1,6 @@
 using AgendaMvcProject.Application.DTOs;
 using AgendaMvcProject.Application.Interfaces;
+using AgendaMvcProject.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -79,7 +80,7 @@ public class ContactsController : ControllerBase
             return NotFound("Contact not found");
         }
 
-        await _contactService.Remove(id);
+        await _contactService.Delete(id);
 
         return Ok(contact);
 
