@@ -6,8 +6,8 @@ namespace AgendaMvcProject.Application.Interfaces;
     {
         Task<IEnumerable<Contact>> GetContacts();
         Task<Contact> GetById(int id);
-        Task<Contact> Add(ContactDTO contact);
-        Task<Contact> Update(ContactDTO contact);
+        Task<Contact> Add(Contact contact);
+        Task<Contact> Update(Contact contact);
         Task Delete(int id);
 
 }

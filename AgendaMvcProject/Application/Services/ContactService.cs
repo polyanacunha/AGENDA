@@ -4,24 +4,28 @@ using AgendaMvcProject.Data.Context;
 using AgendaMvcProject.Application.Interfaces;
 using AgendaMvcProject.Application.DTOs;
 using AutoMapper;
+using AgendaMvcProject.Domain.Interfaces;
 
 namespace AgendaMvcProject.Application.Services
 {
     public class ContactService : IContactService
     {
+        private IContactRepository _contactRepository;
         private readonly ApplicationContext _context;
-         private readonly IMapper _mapper;
+        private readonly IMapper _mapper;
 
-        public ContactService(ApplicationContext context, IMapper mapper)
+        public ContactService(IContactRepository contactRepository, ApplicationContext context, IMapper mapper)
         {
+            _contactRepository = contactRepository;
             _context = context;
             _mapper = mapper;
         }
 
         public async Task<IEnumerable<Contact>> GetContacts()
         {
-            var contactsEntity = await _context.Contacts.ToListAsync();
-            return _mapper.Map<IEnumerable<ContactDTO>>(contactsEntity);
+            var contactsEntity = await _contactRepository.GetContacts();
+            return contactsEntity;
+            // return _mapper.Map<IEnumerable<ContactDTO>>(contactsEntity);
 
         }
 
@@ -30,7 +34,7 @@ namespace AgendaMvcProject.Application.Services
             return await _context.Contacts.FindAsync(id);
         }
 
-        public async Task<Contact> Add(ContactDTO contact)
+        public async Task<Contact> Add(Contact contact)
         {
             await _context.Contacts.AddAsync(contact);
             await _context.SaveChangesAsync();
@@ -38,7 +42,7 @@ namespace AgendaMvcProject.Application.Services
             return contact;
         }
 
-        public async Task<Contact> Update(ContactDTO contact)
+        public async Task<Contact> Update(Contact contact)
         {
             _context.Entry(contact).State = EntityState.Modified;
 
@@ -76,6 +80,6 @@ namespace AgendaMvcProject.Application.Services
             return _context.Contacts.Any(e => e.Id == id);
         }
 
-     
+
     }
 }
