@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6GPMADLvUeWA5Kwb+H6oBfa8oibjsv/g6C7HzwSjbQD7Qs2IrY2TZCK7RzKqJBV+w19tFtTnvJ7B6ANRYv9uiA==",
+  "dgSpecHash": "S9Eua4H3ojZ//rQl7QdhMq43MJPGxfJ43LO4MTjba9Jd2v1f2sT+anMWd0OaP0d1/V+zmHybr9bpeulNk8Ozcw==",
   "success": true,
   "projectFilePath": "/home/usuario/My-Projects/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/home/usuario/.nuget/packages/microsoft.entityframeworkcore.design/7.0.5/microsoft.entityframeworkcore.design.7.0.5.nupkg.sha512",
     "/home/usuario/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.5/microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
     "/home/usuario/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.5/microsoft.entityframeworkcore.tools.7.0.5.nupkg.sha512",
+    "/home/usuario/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/usuario/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/home/usuario/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "/home/usuario/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
@@ -23,7 +24,12 @@
     "/home/usuario/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/home/usuario/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/home/usuario/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/home/usuario/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/usuario/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/home/usuario/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/usuario/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/usuario/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/usuario/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "/home/usuario/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/home/usuario/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/home/usuario/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"

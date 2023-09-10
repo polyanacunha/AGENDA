@@ -74,8 +74,8 @@ public class ContactsController : ControllerBase
     [HttpDelete("{id:int}")]
     public async Task<ActionResult<ContactDTO>> Delete(int id)
     {
-        var category = await _contactService.GetById(id);
-        if (category == null)
+        var contact = await _contactService.GetById(id);
+        if (contact == null)
         {
             return NotFound("Contact not found");
         }
