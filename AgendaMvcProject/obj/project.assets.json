@@ -1486,24 +1486,32 @@
     ]
   },
   "packageFolders": {
-    "/home/usuario/.nuget/packages/": {}
+    "C:\\Users\\Danrley\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/usuario/My-Projects/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj",
+      "projectUniqueName": "C:\\Users\\Danrley\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
       "projectName": "AgendaMvcProject",
-      "projectPath": "/home/usuario/My-Projects/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj",
-      "packagesPath": "/home/usuario/.nuget/packages/",
-      "outputPath": "/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/",
+      "projectPath": "C:\\Users\\Danrley\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
+      "packagesPath": "C:\\Users\\Danrley\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Danrley\\Documents\\AGENDA\\AgendaMvcProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/usuario/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Danrley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1562,7 +1570,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
