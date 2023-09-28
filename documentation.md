@@ -5,7 +5,8 @@ go to the new branch: git checkout name of branch
 see your changes: git status
 add your changes: git add .
 commit your changes: git commit -m "commit message"
-send your changes to the repository: git push -u origin branch name
+send your changes to the repository: git push -u origin branch name 
+in case you created a new repository in a wrong folder, go to that folder and use this command: rm -r .git
 
 ## Rodar as migrations
 1. instalar o entity framework com o comando " dotnet ef migrations add <nomeDaMigration>"

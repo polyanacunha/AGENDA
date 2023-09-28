@@ -12,9 +12,9 @@ namespace AgendaMvcProject.Data.IoC
         public static IServiceCollection AddInfrastructure(this IServiceCollection services,
             IConfiguration configuration)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<ApplicationContext>(options =>
              options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"
-            ), b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+            ), b => b.MigrationsAssembly(typeof(ApplicationContext).Assembly.FullName)));
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IContactRepository, ContactRepository>();

@@ -1,9 +1,16 @@
+using AgendaMvcProject.Data.IoC;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSwaggerGen();
-builder.Services.AddInfrastructure();
+
+void ConfigureServices(IServiceCollection services, IConfiguration Configuration){
+   
+     services.AddInfrastructure(Configuration);
+
+}
 
 var app = builder.Build();
 

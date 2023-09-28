@@ -1,11 +1,11 @@
 # Use a imagem base do SQL Server da Microsoft
-FROM mcr.microsoft.com/mssql/server:2019-latest
+FROM mcr.microsoft.com/mssql/server:2022-latest
 
 # Configuração das variáveis de ambiente do SQL Server
 ENV ACCEPT_EULA=Y
 ENV SA_DB=agenda
-ENV SA_USER=admin
-ENV SA_PASSWORD=admin
+ENV SA_USER=sa
+ENV SA_PASSWORD=Admin123456@
 
 # Criar um diretório para scripts SQL personalizados
 WORKDIR /usr/src/app

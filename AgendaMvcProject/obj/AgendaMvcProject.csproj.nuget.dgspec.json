@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danrley\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {}
+    "c:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danrley\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {
+    "c:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danrley\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
+        "projectUniqueName": "c:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
         "projectName": "AgendaMvcProject",
-        "projectPath": "C:\\Users\\Danrley\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
-        "packagesPath": "C:\\Users\\Danrley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danrley\\Documents\\AGENDA\\AgendaMvcProject\\obj\\",
+        "projectPath": "c:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
+        "packagesPath": "C:\\Users\\Aulus Diniz\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Danrley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aulus Diniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
