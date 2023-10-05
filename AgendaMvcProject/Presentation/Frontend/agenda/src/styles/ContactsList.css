@@ -1,0 +1,51 @@
+.list-container{
+    width: 45%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75vh;
+    background-color: rgb(241, 241, 241);
+}
+.list-row{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(216, 216, 216);
+    margin-bottom: 10px;
+    display: flex; /* Torna a list-row um contêiner flex */
+    align-items: center;
+
+}
+.photo-container {
+    width: 45px; /* Defina o tamanho desejado para a foto */
+    height: 49px; /* Defina o tamanho desejado para a foto */
+    border-radius: 50%; /* Torna a foto circular */
+    overflow: hidden; /* Corta qualquer parte da imagem fora da área circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+  }
+  
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Redimensiona a imagem para caber na área circular */
+  }
+  .name {
+    flex: 1; /* Ocupa o espaço restante no contêiner */
+    margin-left: 3%; /* Margem à esquerda para separar do .photo-container */
+  }
+  .trash, .pencil{
+    width: 5%;
+    height: 70%;
+    margin-left: 70%;
+    border: none;
+    margin-left: 2%; 
+    margin-right: 2%; 
+
+  }
+  .trash img,  .pencil img{
+    width: 70%;
+    height: 50%;
+  }
+ 

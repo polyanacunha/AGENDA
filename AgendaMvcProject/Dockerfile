@@ -1,20 +1,12 @@
-# Use a imagem base do SQL Server da Microsoft
-FROM mcr.microsoft.com/mssql/server:2022-latest
+# Use uma imagem base do PostgreSQL
+FROM postgres:latest
 
-# Configuração das variáveis de ambiente do SQL Server
-ENV ACCEPT_EULA=Y
-ENV SA_DB=agenda
-ENV SA_USER=sa
-ENV SA_PASSWORD=Admin123456@
+# Variáveis de ambiente para configurar o PostgreSQL
+ENV POSTGRES_DB=postgres
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=YourStrong!Passw0rd
 
-# Criar um diretório para scripts SQL personalizados
-WORKDIR /usr/src/app
+# Expor a porta padrão do PostgreSQL (5432)
+EXPOSE 5432
 
-# Copie os scripts SQL personalizados para o contêiner (se necessário)
-#COPY ./seus_scripts_sql /usr/src/app/
-    
-# Expor a porta padrão do SQL Server
-EXPOSE 1433
-
-# Comando de inicialização do SQL Server
-CMD ["/opt/mssql/bin/sqlservr"]
+# Opcional: Copiar arquivos SQL para inicial
