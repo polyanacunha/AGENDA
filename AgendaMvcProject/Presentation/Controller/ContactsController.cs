@@ -18,7 +18,7 @@ public class ContactsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<ContactDTO>>> Get()
+    public async Task<ActionResult<IEnumerable<Contact>>> Get()
     {
         var contacts = await _contactService.GetContacts();
         if (contacts == null)
@@ -35,7 +35,7 @@ public class ContactsController : ControllerBase
     /// <returns></returns>
 
     [HttpGet("{id:int}", Name = "GetContact")]
-    public async Task<ActionResult<ContactDTO>> Get(int id)
+    public async Task<ActionResult<Contact>> Get(int id)
     {
         var contact = await _contactService.GetById(id);
         if (contact == null)

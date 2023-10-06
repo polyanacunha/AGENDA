@@ -1,12 +1,43 @@
+import React, { useEffect, useState } from "react";
+
+
+
+
 const ContactRegister = () => {
+  const [name, setName] = useState("");
+  const [telefone, setTelefone] = useState("");
+  const [email, setEmail] = useState("");
+  const [description, setDescription] = useState("");
+  const [image, setImage] = useState("");
 
 
+  const CreateNewContact = async () => {
+    const contactData = {
+      nome: name, 
+      telefone: telefone,
+      descricao: description,
+      email: email,
+      foto: image,
 
-    
+    };
+
+    try {
+      const response = await contactService.CreateNewContact(contactData);
+      alert("Contato cadastrado com sucesso!")
+
+    }catch(error) {
+      Navigate(`/contactRegister`);
+    }
+
+  };
+
+  const handleBackToList = () => {
+    navigate(`/contactList`);
+  };
   return (
-    <div className="car-register-container">
+    <div className="contact-register-container">
     
-      <form className="car-register-form" onSubmit={handleSubmit}>
+      <form className="contact-register-form" onSubmit={handleSubmit}>
         <h2 className="form-title">Criar novo contato</h2>
 
         <div className="form-group">
@@ -62,7 +93,7 @@ const ContactRegister = () => {
             Foto
           </label>
           <input
-            id="foto"
+            id="photo"
             type="text"
             className="form-input"
             value={image}
