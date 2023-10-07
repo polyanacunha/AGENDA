@@ -6,14 +6,14 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Design;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Design.Internal;
 using Microsoft.Extensions.DependencyInjection ;
-using AgendaMvcProject.Data.IoC;
-using AgendaMvcProject.Data.Repositories;
-using AgendaMvcProject.Application.Interfaces;
-using AgendaMvcProject.Application.Services;
-using AgendaMvcProject.Domain.Interfaces;
-using AgendaMvcProject.Application.Mappings;
+using IoC;
+using Data.Repositories;
+using Application.Interfaces;
+using Application.Services;
+using Domain.Interfaces;
+using Application.Mappings;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using AgendaMvcProject.Data.Context;
+using Data.Context;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -40,9 +40,10 @@ builder.Services.AddCors(options =>
                       {
                           policy.AllowAnyMethod()
                           .AllowAnyHeader()
-                          .WithOrigins("http://localhost:3000")
-                        //   .AllowAnyOrigin()
-                          .AllowCredentials();
+                        //   .WithOrigins("http://localhost:3000", "http://localhost:5108/swagger/index.html")
+                          .AllowAnyOrigin()
+                          .AllowAnyMethod();
+                        //   .AllowCredentials();
                       });
 });
 
@@ -66,6 +67,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 
 var app = builder.Build();
 
+// app.UseMiddleware<RequestLoggingMiddleware>();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -83,6 +86,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseMiddleware<RequestLoggingMiddleware>();
 app.UseCors(AllowOrigin);
 // builder.Services.AddAuthentication(options =>
 //             {
@@ -93,11 +97,11 @@ app.UseCors(AllowOrigin);
 // builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
 //     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme,
 //         options => builder.Configuration.Bind("CookieSettings", options));
-app.UseAuthentication();
-app.UseAuthorization();
+// app.UseAuthentication();
+// app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Contacts}/{action=Index}/{id?}");
 
 app.Run();

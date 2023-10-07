@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "DependencyInjection": "1.2.0",
+          "IoC": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.5",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.Design": "7.0.5",
@@ -39,6 +40,18 @@
           }
         }
       },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
       "DependencyInjection/1.2.0": {
         "runtime": {
           "lib/netstandard2.0/DependencyInjectionLib.dll": {
@@ -52,6 +65,26 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MediatR/12.0.1": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -1028,6 +1061,65 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Domain": "1.0.0",
+          "MediatR": "12.0.1",
+          "Microsoft.EntityFrameworkCore": "7.0.5"
+        },
+        "runtime": {
+          "Application.dll": {}
+        }
+      },
+      "Data/1.0.0": {
+        "dependencies": {
+          "DependencyInjection": "1.2.0",
+          "Domain": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.5",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.1",
+          "NuGet.CommandLine": "6.7.0"
+        },
+        "runtime": {
+          "Data.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "IoC/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0",
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Data": "1.0.0",
+          "DependencyInjection": "1.2.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.5",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.1",
+          "NuGet.CommandLine": "6.7.0",
+          "Swashbuckle.AspNetCore": "6.5.0",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0"
+        },
+        "runtime": {
+          "IoC.dll": {}
+        }
       }
     }
   },
@@ -1044,6 +1136,13 @@
       "path": "automapper/12.0.1",
       "hashPath": "automapper.12.0.1.nupkg.sha512"
     },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+g/K+Vpe3gGMKGzjslMOdqNlkikScDjWfVvmWTayrDHaG/n2pPmFBMa+jKX1r/h6BDGFdkyRjAuhFE3ykW+r1g==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
+    },
     "DependencyInjection/1.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1057,6 +1156,20 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MediatR/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vfxplMielft+g5jxGO31xjjQpI6yqe4r2YGt0Q8x23phwbpJNmUQGY+cCNNFMKKViXRM67ajUlAiwirMeuJWTQ==",
+      "path": "mediatr/12.0.1",
+      "hashPath": "mediatr.12.0.1.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.5": {
       "type": "package",
@@ -1848,6 +1961,26 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

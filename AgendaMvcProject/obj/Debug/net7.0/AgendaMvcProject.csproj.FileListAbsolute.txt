@@ -117,9 +117,6 @@ C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcPro
 C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\ref\AgendaMvcProject.dll
 C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\appsettings.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Presentation\Frontend\agenda\package-lock.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Presentation\Frontend\agenda\package.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Presentation\Frontend\agenda\public\manifest.json
 C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.exe
 C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.deps.json
 C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.runtimeconfig.json
@@ -171,3 +168,14 @@ C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debu
 C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.pdb
 C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.genruntimeconfig.cache
 C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\ref\AgendaMvcProject.dll
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\MediatR.dll
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Application.dll
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Data.dll
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Domain.dll
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\IoC.dll
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\IoC.pdb
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Application.pdb
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Data.pdb
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Domain.pdb
+C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
