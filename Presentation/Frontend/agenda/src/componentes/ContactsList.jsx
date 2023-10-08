@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "../styles/ContactsList.css";
-import photo from '../utils/photo.png';
-import trash from '../utils/trash.png';
-import pencil from '../utils/pencil.png';
+import photo from "../utils/photo.png";
+import trash from "../utils/trash.png";
+import pencil from "../utils/pencil.png";
 // import { Link } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 import contactService from "../services/contactService";
-
 
 const ContactsList = () => {
   // let navigate = useNavigate();
@@ -19,13 +18,14 @@ const ContactsList = () => {
   const fetchContacts = async () => {
     try {
       const data = await contactService.getContacts();
+      console.log({ contacts: data });
     } catch (error) {
       console.error("Erro ao obter os contatos:", error);
     }
   };
 
   useEffect(() => {
-    fetchContacts()
+    fetchContacts();
   }, []);
 
   return (
@@ -43,9 +43,8 @@ const ContactsList = () => {
           <button className="pencil">
             <img src={pencil} alt="" />
           </button>
-
         </div>
-         <div className="list-row">
+        <div className="list-row">
           <div className="photo-container">
             <img src={photo} alt={contacts.nome} className="photo" />
           </div>
@@ -55,21 +54,29 @@ const ContactsList = () => {
           </button>
           <button className="pencil">
             <img src={pencil} alt="" />
-            
           </button>
-        </div> 
-         <button className="card-buttons">
-            {/* <Link to={`/contactRegister`} className="button edit-button">
+        </div>
+        <button className="card-buttons">
+          {/* <Link to={`/contactRegister`} className="button edit-button">
             CREATE CONTACT
             </Link>  */}
-         </button>
-        {/* {contacts.map((contact) => (
+        </button>
+        {contacts.map((contact) => (
           <div className="list-row" key={contact.id}>
             <div className="photo-container">
-              <img src={contact.foto} alt={contact.nome} className="photo" />
+              <img src={photo} alt={contacts.name} className="photo" />
             </div>
+            <div className="name">Polyana Cunha</div>
+            <button className="trash">
+              delete
+              {/* <img src={trash} alt="" /> */}
+            </button>
+            <button className="pencil">
+              {/* <img src={pencil} alt="" /> */}
+              edit
+            </button>
           </div>
-        ))} */}
+        ))}
       </div>
     </>
   );

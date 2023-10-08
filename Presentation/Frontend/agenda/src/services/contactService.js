@@ -6,10 +6,12 @@ const contactService = {
         try {
             const response = await fetch(CONTACTS_ENDPOINT, {
                 method: "GET",
+                mode: "cors",
                 headers: {
                     Accept: "application/json",
-                },
-                credentials: "include",
+                    "Access-Control-Allow-Origin":"*"
+
+                }
             });
             if (!response.ok) {
                 throw new Error("Falha ao obter os contatos");
@@ -72,6 +74,6 @@ const contactService = {
         const data = await response.json();
         return data;
       },
-}
+};
 
 export default contactService;

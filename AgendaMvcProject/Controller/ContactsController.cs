@@ -17,6 +17,12 @@ public class ContactsController : ControllerBase
         _contactService = contactService;
     }
 
+    [HttpOptions]
+    public ActionResult Options()
+    {
+        return NoContent();
+    }
+
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Contact>>> Get()
     {

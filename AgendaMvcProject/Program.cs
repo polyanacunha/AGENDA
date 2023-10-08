@@ -19,7 +19,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
-var AllowOrigin = "AllowOrigin";
+// var AllowOrigin = "AllowOrigin";
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -33,19 +33,19 @@ var builder = WebApplication.CreateBuilder(args);
 
         // builder.Services.AddAutoMapper(typeof(ModelToDTOMapping));
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: AllowOrigin,
-                      policy =>
-                      {
-                          policy.AllowAnyMethod()
-                          .AllowAnyHeader()
-                        //   .WithOrigins("http://localhost:3000", "http://localhost:5108/swagger/index.html")
-                          .AllowAnyOrigin()
-                          .AllowAnyMethod();
-                        //   .AllowCredentials();
-                      });
-});
+// builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy(name: AllowOrigin,
+//                       policy =>
+//                       {
+//                           policy.AllowAnyMethod()
+//                           .AllowAnyHeader()
+//                         //   .WithOrigins("http://localhost:3000", "http://localhost:5108/swagger/index.html")
+//                           .AllowAnyOrigin()
+//                           .AllowAnyMethod();
+//                         //   .AllowCredentials();
+//                       });
+// });
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -87,7 +87,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 app.UseMiddleware<RequestLoggingMiddleware>();
-app.UseCors(AllowOrigin);
+app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 // builder.Services.AddAuthentication(options =>
 //             {
 //                 options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;

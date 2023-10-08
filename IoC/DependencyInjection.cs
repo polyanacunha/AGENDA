@@ -26,6 +26,8 @@ namespace IoC
             services.AddScoped<IContactService, ContactService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddAutoMapper(typeof(ModelToDTOMapping));
+            services.AddCors();
+
             return services;
         }
     }
