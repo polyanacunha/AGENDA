@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-
-
-
+import { Link } from "react-router-dom";
+import contactService from "../services/contactService";
+import '../styles/ContactRegister.css';
 
 const ContactRegister = () => {
   const [name, setName] = useState("");
@@ -10,33 +10,35 @@ const ContactRegister = () => {
   const [description, setDescription] = useState("");
   const [image, setImage] = useState("");
 
-
   const CreateNewContact = async () => {
     const contactData = {
-      nome: name, 
+      name: name,
       telefone: telefone,
-      descricao: description,
+      description: description,
       email: email,
       foto: image,
-
     };
 
     try {
-      const response = await contactService.CreateNewContact(contactData);
-      alert("Contato cadastrado com sucesso!")
-
-    }catch(error) {
-      Navigate(`/contactRegister`);
+      const response = await contactService.createNewContact(contactData);
+      // alert("Contato cadastrado com sucesso!");
+    } catch (error) {
+      <Link to={`/register`} className="button edit-button">
+        CREATE CONTACT
+      </Link>;
     }
-
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
   const handleBackToList = () => {
-    navigate(`/contactList`);
+    <Link to={`/Contacts/list`} className="button edit-button">
+     contact list
+    </Link>;
   };
   return (
     <div className="contact-register-container">
-    
       <form className="contact-register-form" onSubmit={handleSubmit}>
         <h2 className="form-title">Criar novo contato</h2>
 
@@ -118,10 +120,8 @@ const ContactRegister = () => {
           </button>
         </div>
       </form>
-
     </div>
   );
-
-}
+};
 
 export default ContactRegister;

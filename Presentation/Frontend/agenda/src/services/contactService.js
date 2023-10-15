@@ -25,10 +25,9 @@ const contactService = {
         }
     },
     getContactById: async(id) => {
+        console.log({serviceid:id});
         const response = await fetch(`${CONTACTS_ENDPOINT}/${id}`,{
             method: "GET",
-
-            credentials: "include",
         });
         if (!response.ok) {
             throw new Error("Falha ao obter os contatos");
@@ -43,7 +42,6 @@ const contactService = {
         const response = await fetch(`${CONTACTS_ENDPOINT}/${id}`, {
           method: "DELETE",
        
-          credentials: "include",
         });
         if (!response.ok) {    
           throw new Error("Falha ao deletar o contato");
@@ -60,7 +58,6 @@ const contactService = {
           headers: {
             "Content-Type": "application/json",
           },
-          credentials: "include",
           body: JSON.stringify(newContactData),
         });
         if (!response.ok) {    
@@ -74,6 +71,31 @@ const contactService = {
         const data = await response.json();
         return data;
       },
+      editContact: async (id, updatedContactData) => {
+        try {
+          const response = await fetch(`${CONTACTS_ENDPOINT}/${id}`, {
+            method: "PUT",
+            headers: {
+              "Accept": "application/json",
+              "Content-Type": "application/json",
+          },          
+            body: JSON.stringify(updatedContactData),
+          });
+    
+          if (!response.ok) {
+            throw new Error("Falha ao editar o contato");
+          }
+    
+          console.log({ editSucced: "Contato editado com sucesso" });
+    
+          const data = await response.json();
+          return data;
+        } catch (error) {
+          console.error("Erro ao editar o contato", error);
+          throw error;
+        }
+      },
+      
 };
 
 export default contactService;

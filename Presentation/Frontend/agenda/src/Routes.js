@@ -1,16 +1,21 @@
 import React from 'react';
-import { Route, Routes} from 'react-router-dom';
-import ContactRegister from './components/ContactRegister';
+import { Route, Routes, Router} from 'react-router-dom';
+import ContactRegister from './componentes/ContactRegister';
 import ContactsList from './componentes/ContactsList';
-
+import ContactEdit from './componentes/ContactEdit';
+import { BrowserRouter } from "react-router-dom";
+import Home from './componentes/Home';
 
 function AppRoutes() {
     return (
-      <>
+      <>      
       <Routes>
-        <Route path="/contactRegister" element={<ContactRegister/>} />
-        <Route path="/contactList" element={<ContactsList/>}/>
-      </Routes>
+        <Route path="Contacts">
+          <Route path="register" element={<ContactRegister/>} />
+          <Route path="list" element={<ContactsList/>}/>
+          <Route path="edit/:id" element={<ContactEdit/>}/>
+        </Route>
+      </Routes> 
       </>
     );
   }

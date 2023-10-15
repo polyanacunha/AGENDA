@@ -2,13 +2,14 @@ using Application.DTOs;
 using Application.Interfaces;
 using Domain.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgendaMvcProject.Controller;
 
 [Route("api/[controller]")]
 [ApiController]
-// [Authorize]
+
 public class ContactsController : ControllerBase
 {
     private readonly IContactService _contactService;
@@ -24,6 +25,7 @@ public class ContactsController : ControllerBase
     }
 
     [HttpGet]
+
     public async Task<ActionResult<IEnumerable<Contact>>> Get()
     {
         var contacts = await _contactService.GetContacts();
@@ -63,7 +65,7 @@ public class ContactsController : ControllerBase
             contactDto);
     }
 
-    [HttpPut]
+    [HttpPut("{id}")]
     public async Task<ActionResult> Put(int id, [FromBody] ContactDTO contactDto)
     {
         if (id != contactDto.Id)

@@ -3,21 +3,25 @@ import "../styles/ContactsList.css";
 import photo from "../utils/photo.png";
 import trash from "../utils/trash.png";
 import pencil from "../utils/pencil.png";
-// import { Link } from "react-router-dom";
+import { Link, BrowserRouter } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 import contactService from "../services/contactService";
-
+import { Route, Routes } from "react-router-dom";
+import ContactRegister from "./ContactRegister";
+import ContactEdit from "./ContactEdit";
+import AppRoutes from "../Routes";
+import App from "../App";
 const ContactsList = () => {
-  // let navigate = useNavigate();
+  // const navigate = useNavigate();
   const [contacts, setContacts] = useState([]);
-
-  // const handleContactRegister = () => {
+  // const handleContactRegisterClick = () => {
   //   navigate(`/contactRegister`);
   // };
 
   const fetchContacts = async () => {
     try {
       const data = await contactService.getContacts();
+      setContacts(data);
       console.log({ contacts: data });
     } catch (error) {
       console.error("Erro ao obter os contatos:", error);
@@ -32,49 +36,21 @@ const ContactsList = () => {
     <>
       <div className="list-container">
         <h6 className="list-title">Contatos</h6>
-        <div className="list-row">
-          <div className="photo-container">
-            <img src={photo} alt={contacts.nome} className="photo" />
-          </div>
-          <div className="name">Polyana Cunha</div>
-          <button className="trash">
-            <img src={trash} alt="" />
-          </button>
-          <button className="pencil">
-            <img src={pencil} alt="" />
-          </button>
-        </div>
-        <div className="list-row">
-          <div className="photo-container">
-            <img src={photo} alt={contacts.nome} className="photo" />
-          </div>
-          <div className="name">Polyana Cunha</div>
-          <button className="trash">
-            <img src={trash} alt="" />
-          </button>
-          <button className="pencil">
-            <img src={pencil} alt="" />
-          </button>
-        </div>
-        <button className="card-buttons">
-          {/* <Link to={`/contactRegister`} className="button edit-button">
-            CREATE CONTACT
-            </Link>  */}
-        </button>
         {contacts.map((contact) => (
           <div className="list-row" key={contact.id}>
             <div className="photo-container">
-              <img src={photo} alt={contacts.name} className="photo" />
+              <img src={photo} alt={contact.name} className="photo" />
             </div>
-            <div className="name">Polyana Cunha</div>
+            <div className="name">{contact.name}</div>
             <button className="trash">
-              delete
-              {/* <img src={trash} alt="" /> */}
+              <img src={trash} alt="" />
             </button>
-            <button className="pencil">
-              {/* <img src={pencil} alt="" /> */}
-              edit
-            </button>
+            <Link
+              to={`/Contacts/edit/${contact.id}`}
+              className="card-buttons pencil"
+            >
+              <img src={pencil} alt="" />
+            </Link>
           </div>
         ))}
       </div>
