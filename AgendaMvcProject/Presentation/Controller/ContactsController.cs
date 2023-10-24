@@ -1,5 +1,6 @@
 using AgendaMvcProject.Application.DTOs;
 using AgendaMvcProject.Application.Interfaces;
+using AgendaMvcProject.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -45,41 +46,41 @@ public class ContactsController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult> Post([FromBody] ContactDTO contactDto)
+    public async Task<ActionResult> Post([FromBody] Contact contact)
     {
-        if (contactDto == null)
+        if (contact == null)
             return BadRequest("Invalid Data");
 
-        await _contactService.Add(contactDto);
+        await _contactService.Add(contact);
 
-        return new CreatedAtRouteResult("GetContact", new { id = contactDto.Id },
-            contactDto);
+        return new CreatedAtRouteResult("GetContact", new { id = contact.Id },
+            contact);
     }
 
     [HttpPut]
-    public async Task<ActionResult> Put(int id, [FromBody] ContactDTO contactDto)
+    public async Task<ActionResult> Put(int id, [FromBody] Contact contact)
     {
-        if (id != contactDto.Id)
+        if (id != contact.Id)
             return BadRequest();
 
-        if (contactDto == null)
+        if (contact == null)
             return BadRequest();
 
-        await _contactService.Update(contactDto);
+        await _contactService.Update(contact);
 
-        return Ok(contactDto);
+        return Ok(contact);
     }
 
     [HttpDelete("{id:int}")]
-    public async Task<ActionResult<ContactDTO>> Delete(int id)
+    public async Task<ActionResult<Contact>> Delete(int id)
     {
-        var category = await _contactService.GetById(id);
-        if (category == null)
+        var contact = await _contactService.GetById(id);
+        if (contact == null)
         {
             return NotFound("Contact not found");
         }
 
-        await _contactService.Remove(id);
+        await _contactService.Delete(id);
 
         return Ok(contact);
 

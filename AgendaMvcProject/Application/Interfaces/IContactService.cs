@@ -1,12 +1,13 @@
+using AgendaMvcProject.Application.DTOs;
 using AgendaMvcProject.Domain.Models; 
 namespace AgendaMvcProject.Application.Interfaces;
 
     public interface IContactService
     {
-        Task<IEnumerable<Contact>> GetContactsAsync();
-        Task<Contact> GetContactByIdAsync(int id);
-        Task<Contact> AddContactAsync(Contact contact);
-        Task<Contact> UpdateContactAsync(Contact contact);
-        Task DeleteContactAsync(int id);
+        Task<IEnumerable<Contact>> GetContacts();
+        Task<Contact> GetById(int id);
+        Task<Contact> Add(Contact contact);
+        Task<Contact> Update(Contact contact);
+        Task Delete(int id);
 
 }

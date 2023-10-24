@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {}
+    "/home/usuario/My-Projects/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {
+    "/home/usuario/My-Projects/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
+        "projectUniqueName": "/home/usuario/My-Projects/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj",
         "projectName": "AgendaMvcProject",
-        "projectPath": "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
-        "packagesPath": "C:\\Users\\gabyy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabyy\\OneDrive\\Documents\\AGENDA\\AgendaMvcProject\\obj\\",
+        "projectPath": "/home/usuario/My-Projects/AGENDA/AgendaMvcProject/AgendaMvcProject.csproj",
+        "packagesPath": "/home/usuario/.nuget/packages/",
+        "outputPath": "/home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabyy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/usuario/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,6 +53,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -75,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

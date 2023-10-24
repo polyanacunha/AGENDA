@@ -1,6 +1,6 @@
-using Application.Models;
+using AgendaMvcProject.Domain.Models;
 
-namespace Application.interfaces
+namespace AgendaMvcProject.Application.Interfaces
 {
     public interface IAddressService
     {
