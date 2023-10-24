@@ -114,9 +114,11 @@ const ContactRegister = () => {
           </button>
           <button
             className="form-button btn btn-primary"
-            onClick={() => handleBackToList()}
           >
-            Voltar para a lista
+             <Link to={`/Contacts/list`} className="button edit-button">
+             Voltar para a lista
+             </Link>
+            
           </button>
         </div>
       </form>

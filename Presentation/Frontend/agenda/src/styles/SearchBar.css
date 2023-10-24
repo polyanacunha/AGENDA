@@ -1,0 +1,36 @@
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+   position: relative;
+   
+  }
+  
+  .searchButton  {
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    color: #000000; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remova a borda do botão, se desejado */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adicione a sombra */
+    cursor: pointer;
+    
+  }
+  
+  button .searchButton:hover {
+    background-color: #0056b3;
+  }
+  

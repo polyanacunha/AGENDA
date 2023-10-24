@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rg0BMbXB6bNKPrp5S7U/33u20AKmlio6Xgx1uJ9igiXcNFABxZHej4w0Hoy3eUSjcsZUaewEfqd1vtZJTZeK8w==",
+  "dgSpecHash": "u6+CEL035Ikb5YhgolCyV4FUeh6X+zisLoZ7i775L+7ujkCzV/TR4Parf3D0pDKipCabCKggXrBtT2kyWmznkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
+  "projectFilePath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aulus Diniz\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Aulus Diniz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -11,6 +11,7 @@ import ContactRegister from "./ContactRegister";
 import ContactEdit from "./ContactEdit";
 import AppRoutes from "../Routes";
 import App from "../App";
+import Navbar from './Navbar';
 const ContactsList = () => {
   // const navigate = useNavigate();
   const [contacts, setContacts] = useState([]);
@@ -34,6 +35,7 @@ const ContactsList = () => {
 
   return (
     <>
+    <Navbar/> 
       <div className="list-container">
         <h6 className="list-title">Contatos</h6>
         {contacts.map((contact) => (
@@ -43,7 +45,12 @@ const ContactsList = () => {
             </div>
             <div className="name">{contact.name}</div>
             <button className="trash">
+            <Link
+              to={`/Contacts/delete/${contact.id}`}
+              className="card-buttons pencil"
+            >
               <img src={trash} alt="" />
+            </Link>
             </button>
             <Link
               to={`/Contacts/edit/${contact.id}`}

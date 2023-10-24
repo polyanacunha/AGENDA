@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {}
+    "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {
+    "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
+        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
         "projectName": "AgendaMvcProject",
-        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
+        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\AgendaMvcProject.csproj",
         "packagesPath": "C:\\Users\\Aulus Diniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\obj\\",
+        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\AgendaMvcProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj": {
-                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj"
+              "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj": {
+                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Application\\Application.csproj": {
+    "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Aulus Diniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -163,8 +163,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj"
+              "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj"
               }
             }
           }
@@ -212,14 +212,14 @@
         }
       }
     },
-    "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Data\\Data.csproj": {
+    "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Aulus Diniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,8 +241,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj"
+              "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj"
               }
             }
           }
@@ -319,14 +319,14 @@
         }
       }
     },
-    "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj": {
+    "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Aulus Diniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -379,14 +379,14 @@
         }
       }
     },
-    "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj": {
+    "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj",
+        "projectUniqueName": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj",
         "projectName": "IoC",
-        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj",
+        "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\IoC\\IoC.csproj",
         "packagesPath": "C:\\Users\\Aulus Diniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\IoC\\obj\\",
+        "outputPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -408,11 +408,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Application\\Application.csproj"
+              "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Application\\Application.csproj"
               },
-              "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana-Projects\\AGENDA\\Data\\Data.csproj"
+              "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Aulus Diniz\\Documents\\Polyana\\Polyana-Projects\\AGENDA\\Data\\Data.csproj"
               }
             }
           }
