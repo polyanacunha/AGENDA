@@ -47,8 +47,6 @@ const Delete = (props) => {
   };
   return (
 
-
-    <div className="main-container">
       <form className="delete-form" onSubmit={handleSubmit}>
 
         <h1>Tem certeza de que deseja deletar esse contato?</h1>
@@ -66,7 +64,6 @@ const Delete = (props) => {
         </Link>
       </button>
  </form>
-    </div>
   );
 };
 

@@ -74,172 +74,236 @@
 /home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.pdb
 /home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.genruntimeconfig.cache
 /home/usuario/My-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/ref/AgendaMvcProject.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\appsettings.json
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.exe
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.deps.json
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.runtimeconfig.json
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.pdb
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Humanizer.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.csproj.AssemblyReference.cache
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.AssemblyInfoInputs.cache
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.AssemblyInfo.cs
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.csproj.CoreCompileInputs.cache
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.AgendaMvcProject.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.build.AgendaMvcProject.props
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AgendaMvcProject.props
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AgendaMvcProject.props
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\scopedcss\bundle\AgendaMvcProject.styles.css
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.csproj.CopyComplete
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\refint\AgendaMvcProject.dll
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.pdb
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.genruntimeconfig.cache
-C:\Users\Danrley\Documents\AGENDA\AgendaMvcProject\obj\Debug\net7.0\ref\AgendaMvcProject.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\appsettings.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.exe
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.deps.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.runtimeconfig.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.pdb
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\DependencyInjectionLib.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Humanizer.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Npgsql.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.csproj.AssemblyReference.cache
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.AssemblyInfoInputs.cache
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.AssemblyInfo.cs
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.csproj.CoreCompileInputs.cache
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.AgendaMvcProject.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.build.AgendaMvcProject.props
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AgendaMvcProject.props
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AgendaMvcProject.props
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\scopedcss\bundle\AgendaMvcProject.styles.css
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.csproj.CopyComplete
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\refint\AgendaMvcProject.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.pdb
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.genruntimeconfig.cache
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\ref\AgendaMvcProject.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\MediatR.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\MediatR.Contracts.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Application.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Data.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Domain.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\IoC.dll
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\IoC.pdb
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Application.pdb
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Data.pdb
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Domain.pdb
-C:\Users\Aulus Diniz\Documents\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\appsettings.json
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.exe
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.deps.json
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.runtimeconfig.json
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AgendaMvcProject.pdb
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\DependencyInjectionLib.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Humanizer.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\MediatR.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\MediatR.Contracts.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Npgsql.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Application.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Data.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Domain.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\IoC.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\IoC.pdb
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Application.pdb
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Data.pdb
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\bin\Debug\net7.0\Domain.pdb
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.csproj.AssemblyReference.cache
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.AssemblyInfoInputs.cache
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.AssemblyInfo.cs
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.csproj.CoreCompileInputs.cache
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.AgendaMvcProject.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.build.AgendaMvcProject.props
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AgendaMvcProject.props
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AgendaMvcProject.props
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\scopedcss\bundle\AgendaMvcProject.styles.css
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.csproj.CopyComplete
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\refint\AgendaMvcProject.dll
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.pdb
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\AgendaMvcProject.genruntimeconfig.cache
-C:\Users\Aulus Diniz\Documents\Polyana\Polyana-Projects\AGENDA\AgendaMvcProject\obj\Debug\net7.0\ref\AgendaMvcProject.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/appsettings.json
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.exe
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.deps.json
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.runtimeconfig.json
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.pdb
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AutoMapper.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Humanizer.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Mono.TextTemplating.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/bin/Debug/net7.0/System.CodeDom.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.AssemblyReference.cache
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfoInputs.cache
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfo.cs
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.CoreCompileInputs.cache
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.AgendaMvcProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.build.AgendaMvcProject.props
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AgendaMvcProject.props
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AgendaMvcProject.props
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/scopedcss/bundle/AgendaMvcProject.styles.css
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.CopyComplete
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/refint/AgendaMvcProject.dll
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.pdb
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.genruntimeconfig.cache
+C:/Users/Danrley/Documents/AGENDA/AgendaMvcProject/obj/Debug/net7.0/ref/AgendaMvcProject.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/appsettings.json
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.exe
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.deps.json
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.runtimeconfig.json
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.pdb
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AutoMapper.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/DependencyInjectionLib.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Humanizer.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Mono.TextTemplating.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Npgsql.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/System.CodeDom.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.AssemblyReference.cache
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfoInputs.cache
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfo.cs
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.CoreCompileInputs.cache
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.AgendaMvcProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.build.AgendaMvcProject.props
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AgendaMvcProject.props
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AgendaMvcProject.props
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/scopedcss/bundle/AgendaMvcProject.styles.css
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.CopyComplete
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/refint/AgendaMvcProject.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.pdb
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.genruntimeconfig.cache
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/ref/AgendaMvcProject.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/MediatR.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/MediatR.Contracts.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Application.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Data.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Domain.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/IoC.dll
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/IoC.pdb
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Application.pdb
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Data.pdb
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Domain.pdb
+C:/Users/Aulus Diniz/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/appsettings.json
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.exe
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.deps.json
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.runtimeconfig.json
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.pdb
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AutoMapper.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/DependencyInjectionLib.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Humanizer.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/MediatR.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/MediatR.Contracts.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Mono.TextTemplating.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Npgsql.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/System.CodeDom.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Application.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Data.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Domain.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/IoC.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/IoC.pdb
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Application.pdb
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Data.pdb
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Domain.pdb
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.AssemblyReference.cache
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfoInputs.cache
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfo.cs
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.CoreCompileInputs.cache
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.AgendaMvcProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.build.AgendaMvcProject.props
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AgendaMvcProject.props
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AgendaMvcProject.props
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/scopedcss/bundle/AgendaMvcProject.styles.css
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.CopyComplete
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/refint/AgendaMvcProject.dll
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.pdb
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.genruntimeconfig.cache
+C:/Users/Aulus Diniz/Documents/Polyana/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/ref/AgendaMvcProject.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/appsettings.Development.json
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/appsettings.json
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.deps.json
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.runtimeconfig.json
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AgendaMvcProject.pdb
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AutoMapper.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/DependencyInjectionLib.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Humanizer.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/MediatR.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/MediatR.Contracts.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Mono.TextTemplating.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Npgsql.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/System.CodeDom.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Application.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Data.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Domain.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/IoC.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/IoC.pdb
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Application.pdb
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Data.pdb
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/bin/Debug/net7.0/Domain.pdb
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.AssemblyReference.cache
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfoInputs.cache
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.AssemblyInfo.cs
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.CoreCompileInputs.cache
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cs
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.MvcApplicationPartsAssemblyInfo.cache
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.AgendaMvcProject.Microsoft.AspNetCore.StaticWebAssets.props
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.build.AgendaMvcProject.props
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AgendaMvcProject.props
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AgendaMvcProject.props
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.pack.json
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.build.json
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/staticwebassets.development.json
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/scopedcss/bundle/AgendaMvcProject.styles.css
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.csproj.CopyComplete
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/refint/AgendaMvcProject.dll
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.pdb
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/AgendaMvcProject.genruntimeconfig.cache
+/home/john/Documents/Polyana-Projects/AGENDA/AgendaMvcProject/obj/Debug/net7.0/ref/AgendaMvcProject.dll

@@ -64,25 +64,25 @@ const ContactEdit = () => {
             <div className="col-md-4">
               <form className="edit-form" onSubmit={handleSubmit}>
                 <div className="form-group">
-                  <label className="control-label">Nome</label>
+                  <label className="control-label">Nome:</label>
                   <input
                     className="form-control"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
-                  <label className="control-label">Telefone</label>
+                  <label className="control-label">Telefone:</label>
                   <input
                     className="form-control"
                     value={telephone}
                     onChange={(e) => setTelephone(e.target.value)}
                   />
-                  <label className="control-label">Email</label>
+                  <label className="control-label">Email:</label>
                   <input
                     className="form-control"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
-                  <label className="control-label">Descrição</label>
+                  <label className="control-label">Descrição:</label>
                   <input
                     className="form-control"
                     value={description}

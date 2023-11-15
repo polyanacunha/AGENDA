@@ -3,15 +3,16 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
   }
   
-  .car-register-form {
+  form{
     max-width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    
+    width: 500px; 
+    margin-left: 400px;
+    margin-top: 20px;
   }
   
   .form-title {
